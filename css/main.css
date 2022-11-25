@@ -1,0 +1,125 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700&display=swap");
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Vollkorn", serif;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 84.5px;
+}
+
+
+
+.nav-mail, a.email {
+    margin-left: auto; 
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.43;
+    color: #000;
+}
+
+
+
+.main-container {
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-text-description {
+
+}
+
+.name-island {
+    margin-top: 133.75px;
+}
+
+.title-site {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 45px;
+
+    margin-top: 21px;
+}
+
+.desc-text {
+    margin-top: 21px;
+}
+
+.detailed-desc {
+    display: inline-block;
+    color: #FFFFFF;
+    
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-top: 21px;
+
+    background: #6A85E3;
+
+    width: 195px;
+    height: 61px;
+
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.detailed-desc:hover {
+    opacity: 0.8;
+}
+
+.sea-image {
+    margin-top: 104.5px;
+    margin-right: 50.89px;
+    margin-bottom: 113px;
+}
+
+.block-desc {
+    width: 441px;
+    height: 169px;
+    background: #EAEAEA;
+
+    margin-top: 98px;
+    margin-right: 245px;
+    
+    padding: 30px;
+    gap: 17px;
+}
+
+span.block-desc-title {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+p.block-desc-description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.55;
+}
